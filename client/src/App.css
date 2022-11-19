@@ -1,0 +1,156 @@
+.App {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* Home */
+.container-home{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn-add{
+  align-self: flex-end;
+}
+
+.table-secondary{
+  border: 1px solid black;
+}
+
+/* Formulario */
+
+Form{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  border: 1px solid black;
+  padding: 35px;
+
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+
+.btn-form{
+  margin-top:25px ;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #2B78E4;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  border: 2px solid black;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.523);
+}
+
+/* details */
+
+
+
+.container-detalles{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.container-details{
+  border: 1px solid black;
+  padding: 35px;
+
+}
+
+.container-detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.btn-remove{
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+  background-color: #cf2a27;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  border: none;
+  border: 2px solid black;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.523);
+}
+
+.container-btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.btn-like{
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #009e0f;
+  color: white;
+  border: 2px solid black;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.523);
+  font-weight: 600;
+}
+
+.like{
+  width: 200px;
+}
+
+.skills-margin{
+  margin-left: 125px;
+}
+
+/* edit*/
+.container-edit{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
